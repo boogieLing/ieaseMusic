@@ -13,6 +13,7 @@ import getRoutes from './js/routes';
 import stores from './js/stores';
 
 class App extends Component {
+    //app extension interface
     componentDidMount() {
         var { preferences, controller, fm, me, menu, playing } = stores;
         var navigator = this.navigator;
